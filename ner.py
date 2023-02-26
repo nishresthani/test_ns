@@ -3,8 +3,7 @@ from langdetect import detect
 import logging
  
 # Create and configure logger
-logging.basicConfig(format='%(asctime)s %(message)s')
- 
+logging.basicConfig(level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s')
 
 logger = logging.getLogger()
 def language_detect(text):
