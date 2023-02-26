@@ -1,2 +1,5 @@
-spacy
-langdetect
+langcodes==3.3.0
+langdetect==1.0.9
+spacy==3.5.0
+spacy-legacy==3.0.12
+spacy-loggers==1.0.4
