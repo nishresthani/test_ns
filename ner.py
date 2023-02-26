@@ -27,8 +27,9 @@ def extract_ner(sentence):
     except Exception as e:
         logger.error(f"language {lang} does not support")
 
-# sentence = "Apple is looking at buying U.K. startup for $1 billion"
-sentence = "ik ben Niraj Shrestha van Leuven."
-extract_ner(sentence)
 
-
+if __name__ == "__main__":
+    # sentence = "Apple is looking at buying U.K. startup for $1 billion"
+    sentence = "ik ben Niraj Shrestha van Leuven."
+    extract_ner(sentence)
+    
